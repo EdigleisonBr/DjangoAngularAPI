@@ -10,8 +10,10 @@ Run `python -m venv 'name_venv'`
 ## Active venv
 Run `name_venv\Scripts\activate.bat`
 
-## Install django and djangorestframework
+## Install Django
 Run `pip install django`
+
+## Install django and djangorestframework
 Run `pip install djangorestframework`
 
 ## Create Django Project
@@ -44,13 +46,15 @@ Run `pip install django-cors-headers`
         'rest_framework',
     ]
 
-## Create Djando App and Models
+## Create Djando App 
 Run `python manage.py startapp name_app`
-Run `create models`
+
+## Create Models in
+File `models.py`
 
 ## Run migrations 
-Run `python manage.py makemigrations`
-Run `python manage.py migrate`
+- Run **makemigrations**: `python manage.py makemigrations`
+- Run **migrate**: `python manage.py migrate`
 
 ## Create superuser
 Run `python manage.py createsuperuser`
@@ -62,11 +66,9 @@ Run `python manage.py createsuperuser`
 
 # Before you run this project's server..
 
-Activate venv :
-Run `venv\Scripts\activate.bat`
+**Activate venv** : Run `venv\Scripts\activate.bat`
     
-Inside folder DjangoAPI :
-Run `python manage.py runserver`
+**Inside folder DjangoAPI** : Run `python manage.py runserver`
 
 
 
