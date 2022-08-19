@@ -1,32 +1,31 @@
 # Djando & Angular Tutorial
 
-- link video
-    - https://www.youtube.com/watch?v=1Hc7KlLiU9w&t=1082s
+Link video `https://www.youtube.com/watch?v=1Hc7KlLiU9w&t=1082s`
 
 # Initial commands
 
-- Create venv
-    - python -m venv 'name_venv'
+## Create venv
+Run `python -m venv 'name_venv'`
 
-- Active venv
-    - name_venv\Scripts\activate.bat
+## Active venv
+Run `name_venv\Scripts\activate.bat`
 
-- Install django and djangorestframework
-    - pip install django
-    - pip install djangorestframework
+## Install django and djangorestframework
+Run `pip install django`
+Run `pip install djangorestframework`
 
-- Create Django Project
-    - django-admin startproject name_project (DjangoAPI)
+# Create Django Project
+Run `django-admin startproject name_project (DjangoAPI)`
 
-- Run server (inside path project)
-    - python manage.py runserver
+# Run server (inside path project)
+Run `python manage.py runserver`
 
-- Add DB SQLite
+## Add DB SQLite
 
-- Enable CORS (inside path project)
-    - pip install django-cors-headers
+# Enable CORS (inside path project)
+Run `pip install django-cors-headers`
 
-- Add corshearders in
+# Add corshearders in
     - INSTALLED_APPS = [
         'corsheaders',
         ...
@@ -39,37 +38,35 @@
 
     CORS_ORIGIN_ALLOW_ALL = True
 
-- Add app(s) and in rest_framework
+# Add app(s) and in rest_framework
     INSTALLED_APPS = [
         'EmployeeApp.apps.EmployeeappConfig',
         'rest_framework',
     ]
 
-- Create Djando App and Models
-    - python manage.py startapp name_app
-    - create models
+# Create Djando App and Models
+Run `python manage.py startapp name_app`
+Run `create models`
 
-- Run migrations 
-    - python manage.py makemigrations 
-    - python manage.py migrate
+# Run migrations 
+Run `python manage.py makemigrations`
+Run `python manage.py migrate`
 
-- Create superuser
-    - python manage.py createsuperuser
+# Create superuser
+Run `python manage.py createsuperuser`
 
-- Create Serializers
+# Create Serializers, Views and Urls
     - create file 'serializers.py' in path App
-
-- Create Views in file views
-
-- Create file urls.py in path App
+    - Create Views in file views
+    - Create file urls.py in path App
 
 # Before you run this project's server..
 
-    - Activate venv .. Run 
-        - venv\Scripts\activate.bat
+Activate venv :
+Run `venv\Scripts\activate.bat`
     
-    - Inside folder DjangoAPI .. Run
-        - python manage.py runserver
+Inside folder DjangoAPI :
+Run `python manage.py runserver`
 
 
 
