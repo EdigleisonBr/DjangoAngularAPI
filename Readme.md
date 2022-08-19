@@ -73,8 +73,10 @@ Run `python manage.py createsuperuser`
 
 **Activate venv** : Run `venv\Scripts\activate.bat`
     
-**Inside folder DjangoAPI** : Run `python manage.py runserver` for a dev server. Navigate to `http://localhost:8000/`. 
-The application will automatically reload if you change any of the source files.
+**Inside folder DjangoAPI** : Run `python manage.py runserver`
+
+**Navigate to** `http://localhost:8000/`. 
+
 
 
 
