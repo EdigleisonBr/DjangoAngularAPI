@@ -1,4 +1,7 @@
-# Djando & Angular Tutorial - https://www.youtube.com/watch?v=1Hc7KlLiU9w&t=1082s
+# Djando & Angular Tutorial
+
+- link video
+    - https://www.youtube.com/watch?v=1Hc7KlLiU9w&t=1082s
 
 - Create venv
     - python -m venv 'name_venv'
@@ -48,6 +51,9 @@
     - python manage.py makemigrations 
     - python manage.py migrate
 
+- Create superuser
+    - python manage.py createsuperuser
+
 - Create Serializers
     - create file 'serializers.py' in path App
 
@@ -57,8 +63,7 @@
 
 - Include 'url' in urlpatterns in file Project/urls.py
 
-- Create superuser
-    - python manage.py createsuperuser
+
 
 
 
