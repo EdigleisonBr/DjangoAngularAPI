@@ -59,10 +59,15 @@ File `models.py`
 ## Create superuser
 Run `python manage.py createsuperuser`
 
+## Create Requirements.txt
+- Create a file **requirements.txt** in the project root
+- Run `pip freeze` to see dependencies installeds
+- Copy the dependencies and save in **requirements.txt**
+
 ## Create Serializers, Views and Urls
-    - create file 'serializers.py' in path App
-    - Create Views in file views
-    - Create file urls.py in path App
+- Create file **serializers.py** in path App
+- Create Views in file **views**
+- Create file **urls.py** in path App
 
 # Before you run this project's server..
 
