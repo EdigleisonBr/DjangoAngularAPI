@@ -69,11 +69,13 @@ Run `python manage.py createsuperuser`
 - Create Views in file **views**
 - Create file **urls.py** in path App
 
-# Before you run this project's server..
+# Before run this project ..
 
 **Activate venv** : Run `venv\Scripts\activate.bat`
     
-**Inside folder DjangoAPI** : Run `python manage.py runserver`
+**Inside folder DjangoAPI** : Run `python manage.py runserver` for a dev server. Navigate to `http://localhost:8000/`. 
+The application will automatically reload if you change any of the source files.
+
 
 
 
