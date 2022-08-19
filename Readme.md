@@ -3,6 +3,8 @@
 - link video
     - https://www.youtube.com/watch?v=1Hc7KlLiU9w&t=1082s
 
+# Initial commands
+
 - Create venv
     - python -m venv 'name_venv'
 
@@ -61,7 +63,13 @@
 
 - Create file urls.py in path App
 
-- Include 'url' in urlpatterns in file Project/urls.py
+# Before you run this project's server..
+
+    - Activate venv .. Run 
+        - venv\Scripts\activate.bat
+    
+    - Inside folder DjangoAPI .. Run
+        - python manage.py runserver
 
 
 
