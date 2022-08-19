@@ -14,18 +14,18 @@ Run `name_venv\Scripts\activate.bat`
 Run `pip install django`
 Run `pip install djangorestframework`
 
-# Create Django Project
+## Create Django Project
 Run `django-admin startproject name_project (DjangoAPI)`
 
-# Run server (inside path project)
+## Run server (inside path project)
 Run `python manage.py runserver`
 
 ## Add DB SQLite
 
-# Enable CORS (inside path project)
+## Enable CORS (inside path project)
 Run `pip install django-cors-headers`
 
-# Add corshearders in
+## Add corshearders in
     - INSTALLED_APPS = [
         'corsheaders',
         ...
@@ -38,24 +38,24 @@ Run `pip install django-cors-headers`
 
     CORS_ORIGIN_ALLOW_ALL = True
 
-# Add app(s) and in rest_framework
+## Add app(s) and in rest_framework
     INSTALLED_APPS = [
         'EmployeeApp.apps.EmployeeappConfig',
         'rest_framework',
     ]
 
-# Create Djando App and Models
+## Create Djando App and Models
 Run `python manage.py startapp name_app`
 Run `create models`
 
-# Run migrations 
+## Run migrations 
 Run `python manage.py makemigrations`
 Run `python manage.py migrate`
 
-# Create superuser
+## Create superuser
 Run `python manage.py createsuperuser`
 
-# Create Serializers, Views and Urls
+## Create Serializers, Views and Urls
     - create file 'serializers.py' in path App
     - Create Views in file views
     - Create file urls.py in path App
